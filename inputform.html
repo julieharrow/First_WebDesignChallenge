@@ -1,0 +1,119 @@
+ <! Julie created this new page to contain the input form re: getting pre-approved.>
+
+ <!I would want to build in the following functionality:  when someone submits their input form, the page clears the form and the content of the page is replaced with text that reads, "Thank you for ....someone will be in touch with you shortly to schedule an appointment..." Also, there should be additional calls-to-action, such as: "Check out the experience of this customer"...containing a custom excample that is tailored to their submission information.>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Design Challenge</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <section id="headerLogo">
+        <! Julie made the fake bank image a clickable link to the home page>
+        <a href="index.html"><img src="images/fake_bank_logo.png" alt="Fake Bank Logo" /></a>
+      </section>
+      <nav>
+        <ul>
+          <li>
+            <a href="about.html">About Us</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  <body>
+    <section id="formSection" class="panel">
+  		<section class="large-inner-wrapper">
+  			<section class="two-even-columns">
+  				<section class="two-column-1">
+  					<section class="proofPoints">
+  						<section class="proofPoint">
+	  						<h4>"Thanks FakeBank!"</h4>
+	  						<img src="images/proof_headshot_1.png" />
+	  						<p>—John Smith, Seattle, Washington</p>
+	  					</section>
+  						<section class="proofPoint">
+	  						<h4>"I used FakeBank to try to find a home I would love living in."</h4>
+                <img src="images/proof_headshot_2.png" />
+	  						<p>Jane Smith, San Francisco, California</p>
+	  					</section>
+  					</section>
+  				</section>
+   				<section class="two-column-2">
+   					<form>
+              <h4>Get Pre-Approved.</h4>
+              <p>Fill out the form below.</p>
+              <section>
+                <label>First Name*</label>
+                <input type="text" />
+              </section>
+              <section>
+                <label>Last Name*</label>
+                <input type="text" />
+              </section>
+              <section>              
+                <label>Phone Number*</label>
+                <input type="text" />
+              </section>
+              <section>                
+                <label>Street Address*</label>
+                <input type="text" />
+              </section>
+              <section>
+                <label>Apartment Number</label>
+                <input type="text" />
+              </section>
+              <section>
+                <label>City*</label>
+                <input type="text" />
+              </section>
+              <section>
+                <label>State*</label>
+                <input type="text" />
+              </section>
+              <section>
+                <label>Zip Code*</label>
+                <input type="text" />
+              </section>
+              <section>
+                <select name="loan-amount">
+                  <option value="0-50,000">$0-$50,000</option>
+                  <option value="50,000-100,000">$50,000-$100,000</option>
+                  <option value="100,000-500,000">$100,000-$500,000</option>
+                  <option value="500,000">$500,000+</option>
+                </select>
+              </section>
+              <section>
+                <select name="Mortgage Type">
+                  <option value="Fixed Rate Mortgage">Fixed Rate Mortgage</option>
+                  <option value="Variable Rate Mortgage">Variable Rate Mortgage</option>
+                  <option value="VA Loan">VA Loan</option>
+                  <option value="Baloon Mortgage">Baloon Mortgage</option>
+                  <option value="Interest Only">Interest Only</option>
+                  <option value="Reverse Mortgage">Reverse Mortgage</option>
+                </select>
+              </section>
+              <section>
+                <input type="submit" value="Submit" />
+              </section>
+   					</form>
+  				</section> 				
+  			</section>
+  		</section>
+  	</section>
+   <footer>
+      <section id="footerLogo">
+        <img src="images/fake_bank_logo.png" alt="Fake Bank Logo" />
+      </section>
+      <p>Disclaimer: FakeBank is not an actual financial institution. </p>
+      <! Julie added additional space - could have acheived through css, but didn't want to create another class.>
+      <p>This page has been created solely for the purpose of classroom instruction at Startup Institute.</p>
+    </footer>
+  </body>
+</html>

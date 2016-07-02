@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Design Challenge</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <header>
+      <section id="headerLogo">
+        <! Julie made the fake bank image a clickable link to the home page.  I would have liked to maintain a smaller image, but was unable to figure out the best way to do so.>
+        <a href="index.html"><img src="images/fake_bank_logo.png" alt="Fake Bank Logo" /></a>
+      </section>
+      <nav>
+        <ul>
+          <li>
+            <a href="about.html">About Us</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+  	</header>
+  	<section id="hero" class="panel">
+  		<section class="inner-wrapper">
+  			<h1>Find Your Dream Home</h1>
+  			<h2>Don't break the bank. Let us help you get the home you love</h2>
+  			<section class="heroPercentage">
+  				<h3>2.99%</h3>
+  				<p>First 6 months</p>
+  			</section>
+      </section>
+    </section>
+  	<section id="learnMore" class="panel">
+  		<section class="inner-wrapper">
+  			<h3>Quality Mortgage Rates and Services Built For You</h3>
+  		</section>
+      <!Julie made the "Get Pre-Approved" button. Leads to input form on a different page. Would have liked to reduce the space before and increased the space after the button - heirarchies of css classes are not as familiar and I was unable to located the class that required change - inner-wrapper?>
+      <section class="getApproved">       
+          <a href="inputform.html" class="button">Get Pre-Approved Today</a>
+          <p>
+          </p>
+<!Would have loved to have made the image boxes responsive so that when someone scrolls over the learnMoreIcons, they could preview some more details about those features- would have required making entire images and using jquery/javascript.>
+      </section>
+  		<section class="three-even-columns">
+  			<section class="three-column-1">
+  				<img src="images/low_rates_icon.png" class="learnMoreIcon" />
+  				<h5>Low Rates and Fees</h5>
+  			</section>
+  			<section class="three-column-2">
+  				<img src="images/lock_rate_icon.png" class="learnMoreIcon" />
+  				<h5>Lock In A Rate</h5>
+  			</section>
+  			<section class="three-column-3">
+  				<img src="images/direct_lender_icon.png" class="learnMoreIcon" />
+  				<h5>Direct Lender</h5>
+  			</section>
+  			<section class="three-column-1 noBorderTop">
+  				<img src="images/close_icon.png" class="learnMoreIcon" />
+  				<h5>Close in 30 Days</h5>
+  			</section>
+  			<section class="three-column-2 noBorderTop">
+  				<img src="images/easy_apply_icon.png" class="learnMoreIcon" />
+  				<h5>Easy Application</h5>
+  			</section>
+  			<section class="three-column-3 noBorderTop">
+  				<img src="images/advisor_icon.png" class="learnMoreIcon" />
+  				<h5>Mortgage Advisor</h5>
+  			</section>
+  		</section>
+  	</section>
+  	<! Julie relocated the form to a separate page for simplicity.>
+    <! Julie removed the 'About Us' section as it felt duplicative re: the About Us page through the nav bar.>
+     <! Julie removed the 'Contact Us' section as it felt duplicative re: the Contact Us page through the nav bar.>
+  	</section>
+  	<footer>
+  		<section id="footerLogo">
+  			<img src="images/fake_bank_logo.png" alt="Fake Bank Logo" />
+  		</section>
+  		<p>Disclaimer: FakeBank is not an actual financial institution. </p>
+       <! Julie added additional space - could have acheived through css, but didn't want to create another class.>
+      <p>This page has been created solely for the purpose of classroom instruction at Startup Institute.</p>
+  	</footer>
+  </body>
+</html>
